@@ -27,15 +27,13 @@ matplotlib e seaborn
 <p style="text-align: justify;">Usadas para a geração de todos os gráficos do projeto (distribuições, correlações, matrizes de confusão e comparações de desempenho).</p>
 scikit-learn
 <p style="text-align: justify;">Usada para divisão treino/teste, normalização (StandardScaler, MinMaxScaler), codificação categórica (OneHotEncoder, OrdinalEncoder), treinamento dos modelos (KNeighborsClassifier, modelo baseline) e cálculo das métricas de desempenho.</p>
-Versão do Python usada
 
-Python 3.x [preencher com a versão exata utilizada]
 
 Pré-requisitos e como rodar o projeto
 <p style="text-align: justify;">Para executar o notebook, instale as bibliotecas necessárias rodando o comando abaixo:</p>
 pip install pandas numpy matplotlib seaborn scikit-learn
 <p style="text-align: justify;">e após isso clone o projeto usando o seguinte comando:</p>
-git clone [link do seu repositório aqui]
+git clone https://github.com/isalemecruz/cubo_gelatinoso.git
 Descrição do uso de IA neste trabalho
 <p style="text-align: justify;">[Preencher com o detalhamento real de como ferramentas de IA foram utilizadas na construção dos textos e códigos deste trabalho — esta seção é obrigatória segundo o enunciado da disciplina.]</p>
 Melhorias futuras
