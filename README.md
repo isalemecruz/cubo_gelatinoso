@@ -19,14 +19,23 @@ Treinamento e comparação de hiperparâmetros do k-NN
 Conclusões e principais aprendizados
 <p style="text-align: justify;">A última seção do notebook discute qual combinação de pré-processamento e hiperparâmetros obteve o melhor desempenho, relacionando os resultados às características observadas na análise exploratória.</p>
 Bibliotecas utilizadas e versão do Python
-pandas
-<p style="text-align: justify;">Usada para carregamento, manipulação e organização dos dados em DataFrames.</p>
-numpy
-<p style="text-align: justify;">Usada para operações numéricas auxiliares ao longo da análise.</p>
-matplotlib e seaborn
-<p style="text-align: justify;">Usadas para a geração de todos os gráficos do projeto (distribuições, correlações, matrizes de confusão e comparações de desempenho).</p>
-scikit-learn
-<p style="text-align: justify;">Usada para divisão treino/teste, normalização (StandardScaler, MinMaxScaler), codificação categórica (OneHotEncoder, OrdinalEncoder), treinamento dos modelos (KNeighborsClassifier, modelo baseline) e cálculo das métricas de desempenho.</p>
+<strong>matplotlib.pyplot, apelidado de plt:</strong> Utilizada para criar as visualizações deste trabalho, como histogramas, boxplots e o gráfico de comparação de acurácia entre as diferentes versões dos dados.<br>
+
+<strong>pandas, apelidado de pd:</strong> Utilizada para carregamento, manipulação e organização dos dados em DataFrames, incluindo a construção das diferentes versões do conjunto de dados normalizadas e codificadas.<br>
+
+<strong>seaborn, apelidado de sns:</strong> Utilizada em conjunto com o matplotlib para a criação de gráficos mais elaborados, como os histogramas por classe do target e o mapa de calor de correlação entre os atributos numéricos.<br>
+
+<strong>sklearn.model_selection.train_test_split:</strong> Utilizada para dividir o conjunto de dados em treino e teste de forma estratificada, preservando a proporção das classes do target.<br>
+
+<strong>sklearn.preprocessing.StandardScaler e MinMaxScaler:</strong> Utilizadas para normalizar os atributos numéricos, testando duas estratégias diferentes de normalização para avaliar seu efeito no desempenho do k-NN.<br>
+
+<strong>sklearn.preprocessing.OneHotEncoder e OrdinalEncoder:</strong> Utilizadas para codificar os atributos categóricos, testando duas estratégias diferentes de codificação para avaliar seu efeito no desempenho do k-NN.<br>
+
+<strong>sklearn.dummy.DummyClassifier:</strong> Utilizada para treinar o modelo baseline, que serve como piso mínimo de comparação para avaliar se o k-NN está de fato aprendendo padrões úteis a partir dos atributos.<br>
+
+<strong>sklearn.metrics.accuracy_score, confusion_matrix e ConfusionMatrixDisplay:</strong> Utilizadas para calcular e visualizar as métricas de desempenho definidas neste trabalho (acurácia e matriz de confusão) para todos os modelos treinados.<br>
+
+<strong>sklearn.neighbors.KNeighborsClassifier:</strong> Algoritmo principal deste trabalho, utilizado para treinar os modelos de k vizinhos mais próximos avaliados ao longo do notebo
 
 
 Pré-requisitos e como rodar o projeto
