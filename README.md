@@ -347,7 +347,11 @@ De forma geral, o trabalho mostrou que, para o k-NN, as decisões de <strong>pr�
 
 <p align="justify"> O <strong>ChatGPT</strong> foi utilizado principalmente para revisar e organizar a documentação do projeto, incluindo este README. As sugestões das ferramentas foram analisadas e adaptadas por mim, sendo os códigos executados, os experimentos realizados e os resultados analisados por mim. </p>
 
-<p align="justify"> <a href="https://claude.ai/share/1c65ed56-49e2-4408-a013-4130620136d2">Registro da conversa utilizada com o Claude</a> </p>
+<p align="justify"> O registro da conversa está no documento word anexado, já que não consegui compartilhar o lnk da conversa com o claude </p>
+
+<p align="justify"> O <strong>ChatGPT</strong> foi utilizado principalmente para revisar e organizar a documentação do projeto, incluindo o README. As sugestões das ferramentas foram analisadas e adaptadas pelo autor. </p>
+
+<p align="justify"> <a href="https://chatgpt.com/share/6aaf0256-cb2c-83e9-9643-f947fd71bbf2">Registro da conversa utilizada com o Chat gpt</a> </p>
 
 ---
 
